@@ -6,7 +6,7 @@ AUTHOR = 'Tornike Natsvlishvili'
 SITENAME = 'Skivri.ge Blog'
 SITEURL = ''
 
-THEME = 'mine'
+THEME = 'sufta'
 
 PATH = 'content'
 
