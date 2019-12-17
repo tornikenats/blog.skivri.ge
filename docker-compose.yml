@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+  blog:
+    container_name: skivrige-blog
+    build: .
+    image: registry.skivri.ge:443/skivrige-blog
+    environment:
+      - VIRTUAL_HOST=blog.skivri.ge
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
